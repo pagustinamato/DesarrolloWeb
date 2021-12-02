@@ -1,0 +1,63 @@
+body {
+  background-color: white;
+}
+body span {
+  color: purple;
+}
+
+.footer__div--background {
+  background-color: green;
+}
+
+.div__div--color {
+  color: purple;
+}
+
+.div__span--font {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.div__h4--size {
+  font-size: 40px;
+}
+
+.div__a--color {
+  color: purple;
+}
+
+.div__h2--alignText {
+  text-align: center;
+}
+
+.header__div--background {
+  background-color: #00e1ff;
+}
+
+.tr__th--font {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.moto1-icon {
+  background-image: url("../img/moto1.jpg");
+  /* background-size: cover;*/
+  background-position: center;
+}
+
+.moto2-icon {
+  background-image: url("../img/moto2.jpg");
+  /* background-size: cover;*/
+  background-position: center;
+}
+
+.moto3-icon {
+  background-image: url("../img/moto3.jpg");
+  /* background-size: cover;*/
+  background-position: center;
+}
+
+.moto1-icon,
+.moto2-icon,
+.moto3-icon {
+  height: 250px;
+  width: 400px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+</head>
+
+<body>
+    <header>
+        <h1> Titulo</h1>
+        <img src="" alt="Banner con logo"><!-- Imagen de LOGO -->
+    </header>
+    <br>
+    <br>
+    <main>
+        <section>
+            <nav>
+                <h2>Menu</h2>
+                <ul>
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+        <br>
+        <br>
+        <h1>FORMULARIO DE CONTACTO</h1>
+        <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+            <label for="name">Nombre</label> 
+            <input type="text" name="name" placeholder="Colocar Nombre completo">
+            <br><br>
+            <label for="age">Edad</label> 
+            <input type="number" name="age">
+            <br><br>
+            <!--implementar placeholder -->
+            <label for="phone">Telefono</label>
+            <input type="tel" name="tel">
+            <br><br>
+            <!-------menu desplegable---------->
+            <label for="">Estado Civil</label>
+            <select name="Estado Civil">
+                <option value="Soltero/a">Soltero/a</option>
+                <option value="Casado/a">Casado/a</option>
+            </select>
+            <br><br>
+            <!--------Area de texto-------------------------------------------->
+            <label for="comment">Comentarios</label>
+            <textarea name="Comentarios" cols="30" rows="5" placeholder="escribe tu comentario"></textarea>
+            <br><br>
+            <!--------tipo de-botones en formularios--------------------------->
+            <input type="submit" value="enviar">
+            <!--envia el formulario-->
+            <input type="reset" value="borrar"><br>
+            <!--------check box o casillas de verificacion--------------------->
+            Desea recibir el Newsletter? <input type="checkbox"><br> 
+        </form>
+
+
+</body>
+
+</html>

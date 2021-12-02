@@ -1,0 +1,66 @@
+$foncolor: purple;
+$background1: white;
+$background2: green;
+$background3: rgb(0, 225, 255);
+$fontSize: 40px;
+$fontFamily: "Franklin Gothic Medium",
+"Arial Narrow",
+Arial,
+sans-serif;
+
+body {
+    background-color: $background1;
+
+    span {
+        color: $foncolor;
+    }
+}
+
+.footer__div--background {
+    background-color: $background2;
+}
+
+.div__div--color {
+    color: $foncolor;
+}
+
+.div__span--font {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.div__h4--size {
+    font-size: $fontSize;
+}
+
+.div__a--color {
+    color: $foncolor;
+}
+
+.div__h2--alignText {
+    text-align: center;
+}
+
+.header__div--background {
+    background-color: $background3;
+}
+
+.tr__th--font {
+    font-family: $fontFamily;
+}
+
+@each $moto in moto1,
+moto2,
+moto3 {
+    .#{$moto}-icon {
+        background-image: url("../img/#{$moto}.jpg");
+        /* background-size: cover;*/
+        background-position: center;
+    }
+}
+
+.moto1-icon,
+.moto2-icon,
+.moto3-icon {
+    height: 250px;
+    width: 400px;
+}

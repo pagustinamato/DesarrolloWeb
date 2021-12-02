@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer Desafío</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header__div--background">
+            <div>
+                <img src="" alt="Banner con logo"><!-- Imagen de LOGO -->
+            </div>
+            <span class="header-title" n>Titulo</span>
+        </div>
+    </header>
+    <br>
+    <br>
+    <main>
+        <div class="container-fluid">
+            <h2>Menu</h2>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">SubMenu
+                    <span class="caret"></span></button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a class="dropdown-item" href="Page/primeraSeccion.html">Primera Seccion</a></li>
+                    <li><a class="dropdown-item" href="Page/segundaSeccion.html">Segunda Seccion</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sec">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/moto1.jpg" alt="Moto1" width="1100" height="500">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/moto2.jpg" alt="Moto2" width="1100" height="500">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/moto3.jpg" alt="Moto3" width="1100" height="500">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+        </div>
+        <!-- <div class="container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/plC9WbIMJCk"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div> -->
+    <!--  <div class="grid-container">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+        </div> -->
+        <div class="table-responsive">
+            <h2 class="div__h2--alignText">Tabla de contenido</h2>
+            <br>
+            <table class="table table-dark table-hover table-bordered">
+                <tr>
+                    <th class="tr__th--font">Articulos</th>
+                    <th class="tr__th--font">Descripcion</th>
+                    <th class="tr__th--font">Materiales</th>
+                    <th class="tr__th--font">Precio</th>
+                </tr>
+                <tr>
+                    <td>Articulo 1</td>
+                    <td>Descripcion del articulo en venta</td>
+                    <td>Material del cual esta construido</td>
+                    <td>$0.00</td>
+                </tr>
+                <tr>
+                    <td>Articulo 2</td>
+                    <td>Detalle</td>
+                    <td>Material y accesorios</td>
+                    <td>$0.00</td>
+                </tr>
+            </table>
+        </div>
+        <h2>Imagenes Each</h2>
+        <div class="moto1-icon"></div>
+        <div class="moto2-icon"></div>
+        <div class="moto3-icon"></div>
+    </main>
+    <br>
+    <br>
+    <h4>Titulo de segundo commit</h4>
+    <footer>
+        <div class="footer__div--background">
+            <div class="div__div--color">
+                <span class="div__span--font"><strong>Ubicacion</strong></span><br><br>
+                <img src="../img/ubicacion.png" alt="Location" width="20px"><br><br>
+                <span><strong>Av. Hipolito Hirigoyen 2279, Quilmes Oeste</strong></span>
+            </div>
+            <div class="footerContacto">
+                <h4>Redes Sociales</h4>
+                <a href="https://facebook.com/"> <img src="../img/icons-facebook.svg" alt="" width="20px"></a>
+                <a href="https://instagram.com/"> <img src="../img/icons-instagram.svg" alt="" width="20px"></a>
+                <a href="https://twitter.com/"> <img src="../img/icons-twitter.svg" alt="" width="20px"></a>
+            </div>
+            <div>
+                <h4 class="div__h4--size">Contacto</h4>
+                <span><strong>Email:</strong> nuestromail@gmail.com</span><br>
+                <a class="div__a--color" href="../Page/contacto.html">Formulario de Contacto</a>
+            </div><br>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
